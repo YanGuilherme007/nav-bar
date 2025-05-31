@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  align-items: center;
+ justify-content: center;
+}
+nav{
+  position: absolute;
+  top: 300px;
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  list-style-type: none;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 10px;
+  
+}
+.icon-house .ph{
+  position: relative;
+  left: 10px;
+}
+.icon-bucket .ph{
+  position: relative;
+  left: 12px;
+}
+.icon-new .ph{
+  position: relative;
+  left: 20px;
+}
+.icon-notification .ph{
+  position: relative;
+  left: 30px;
+}
+.icon-profile .ph{
+  position: relative;
+  left: 10px;
+}
